@@ -1,4 +1,4 @@
-FROM node:14-alpine AS builder
+FROM node:9-alpine AS builder
 #ENV NODE_ENV production
 # dd a work directory
 #RUN apk update && apk upgrade && \
