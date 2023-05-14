@@ -4,7 +4,7 @@ function getApiServerURL() {
   if (process && process.env.REACT_APP_LOCAL_ENV === 'true') {
     return `${localHost}:4000`;
   }
-  return 'https://api.susi.ai';
+  return 'https://susi-ai.piuraplustv.com/';
 }
 
 const urls = {
