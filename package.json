@@ -140,7 +140,7 @@
   "scripts": {
     "start": "webpack-dev-server --open --env.mode development",
     "docker-start": "webpack-dev-server --host 0.0.0.0 --open --env.mode development",
-    "build": "webpack --env.mode production",
+    "build": "webpack",
     "lint": "eslint \"src/**/*.js\"",
     "precommit": "lint-staged",
     "format": "prettier --write \"src/**/*.js\"",
