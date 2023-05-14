@@ -1,9 +1,7 @@
 const localHost = `http://${window.location.hostname}`;
 
 function getApiServerURL() {
-  if (process && process.env.REACT_APP_LOCAL_ENV === 'true') {
-    return `${localHost}:4000`;
-  }
+  
   return 'https://susi-ai.piuraplustv.com/';
 }
 
